@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, Image,TextInput } from 'react-native'
+import { View, Text, SafeAreaView, Image,TextInput, ScrollView } from 'react-native'
 import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 
@@ -61,11 +61,18 @@ const HomeScreen = () => {
     </View>
            {/*search bar ends */}
         
-        <View className="pt-6 ">
+        <ScrollView>
+        
+        <View className="pt-2">
 {/* experience slide*/}
     <Slides/>
 
         </View>
+        <View>
+            
+        </View>
+
+        </ScrollView>
 
         
         
