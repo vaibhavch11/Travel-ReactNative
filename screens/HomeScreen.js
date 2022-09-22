@@ -61,11 +61,12 @@ const HomeScreen = () => {
     </View>
            {/*search bar ends */}
         
-        <View className='flex-none'>
+        <View className="pt-6 ">
 {/* experience slide*/}
     <Slides/>
 
         </View>
+
         
         
         
