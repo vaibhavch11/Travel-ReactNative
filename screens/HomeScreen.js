@@ -3,6 +3,7 @@ import React, { useLayoutEffect } from 'react'
 import { useNavigation } from '@react-navigation/native'
 
 import { UserIcon,HomeIcon,AdjustmentsVerticalIcon,MagnifyingGlassIcon } from "react-native-heroicons/outline";
+import Slides from '../components/Slides';
 const HomeScreen = () => {
     const navigation=useNavigation();
 
@@ -59,6 +60,15 @@ const HomeScreen = () => {
         </View>
     </View>
            {/*search bar ends */}
+        
+        <View className='flex-none'>
+{/* experience slide*/}
+    <Slides/>
+
+        </View>
+        
+        
+        
         
         {/*major cities*/}
 
