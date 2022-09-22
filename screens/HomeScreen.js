@@ -4,6 +4,7 @@ import { useNavigation } from '@react-navigation/native'
 
 import { UserIcon,HomeIcon,AdjustmentsVerticalIcon,MagnifyingGlassIcon } from "react-native-heroicons/outline";
 import Slides from '../components/Slides';
+import CardSections from '../components/CardSections';
 const HomeScreen = () => {
     const navigation=useNavigation();
 
@@ -68,8 +69,14 @@ const HomeScreen = () => {
     <Slides/>
 
         </View>
+
+       
+        <View className="mt-12">
+            <CardSections />
+        </View>
+
         <View>
-            
+        <CardSections />
         </View>
 
         </ScrollView>
@@ -80,7 +87,7 @@ const HomeScreen = () => {
         
         {/*major cities*/}
 
-       <Cards />
+       
         
       
     </View>
