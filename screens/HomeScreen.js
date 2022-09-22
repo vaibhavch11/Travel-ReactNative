@@ -62,6 +62,7 @@ const HomeScreen = () => {
         
         {/*major cities*/}
 
+       <Cards />
         
       
     </View>
